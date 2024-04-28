@@ -93,6 +93,7 @@ Try out the **langchain-bigdoc-processor** tool [here](https://opulent-goldfish-
 
 
 ## References
+
 •	https://python.langchain.com/docs/get_started/introduction/
 •	https://platform.openai.com/docs/introduction
 •	https://docs.pinecone.io/guides/getting-started/quickstart/Using_Pinecone_for_embeddings_search.ipynb
