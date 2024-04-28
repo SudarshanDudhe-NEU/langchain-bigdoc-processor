@@ -1,8 +1,8 @@
 
-# langchain-bigdoc-processor
+# Langchain Big Document Processor
 
 ## Overview
-The **langchain-bigdoc-processor** is a powerful tool designed to streamline the process of document analysis and summary generation. It leverages GPT-4, an advanced language model, to generate concise summaries from text documents (PDF or TXT) or YouTube transcripts. This tool is capable of accurately summarizing hundreds of pages of text by utilizing cutting-edge natural language processing techniques. Built with Python and Streamlit, the **langchain-bigdoc-processor** provides an intuitive and user-friendly interface for document summarization. It leverages the langchain library for text processing, ensuring high-quality summaries that capture the essence of the input document.
+The **Langchain Big Document Processor** is a powerful tool designed to streamline the process of document analysis and summary generation. It leverages GPT-4, an advanced language model, to generate concise summaries from text documents (PDF or TXT) or YouTube transcripts. This tool is capable of accurately summarizing hundreds of pages of text by utilizing cutting-edge natural language processing techniques. Built with Python and Streamlit, the **Langchain Big Document Processor** provides an intuitive and user-friendly interface for document summarization. It leverages the langchain library for text processing, ensuring high-quality summaries that capture the essence of the input document.
 
 ### Demo
 Try out the **langchain-bigdoc-processor** tool [here](https://opulent-goldfish-q7qgw49px94g297g4-8501.app.github.dev/).
