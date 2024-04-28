@@ -11,7 +11,6 @@ def summarize():
     """
     st.title("Document Summarizer")
 
-
     # if input_method == 'Upload a document':
     uploaded_file = st.file_uploader(
         "Upload a document to summarize, 10k to 100k tokens works best!", type=['txt', 'pdf'])
@@ -22,9 +21,8 @@ def summarize():
             st.session_state["resume_file_name"] = uploaded_file.name
             print("file name is", uploaded_file.name)
             files = {"file": (uploaded_file.name,
-                                uploaded_file.getvalue())}
+                              uploaded_file.getvalue())}
             response = requests.post(f"{url}upload", files=files)
             if response.status_code == 200:
                 st.markdown(response.json()[
                             "summary"], unsafe_allow_html=True)
-   
