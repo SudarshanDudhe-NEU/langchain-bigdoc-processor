@@ -15,7 +15,6 @@ def summarize():
     # if input_method == 'Upload a document':
     uploaded_file = st.file_uploader(
         "Upload a document to summarize, 10k to 100k tokens works best!", type=['txt', 'pdf'])
-    print(uploaded_file)
 
     # if input_method == 'Enter a YouTube URL':
     #     youtube_url = st.text_input("Enter a YouTube URL to summarize")
