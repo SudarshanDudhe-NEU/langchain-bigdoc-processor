@@ -1,0 +1,4 @@
+pinecone
+openai
+langchain
+python-dotenv

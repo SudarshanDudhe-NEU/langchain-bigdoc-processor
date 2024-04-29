@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8501:8501"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./frontend:/app/frontend  # Replace "/path/to/frontend" with the actual path to your frontend code directory
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./backend:/app/backend  # Replace "/path/to/backend" with the actual path to your backend code directory
